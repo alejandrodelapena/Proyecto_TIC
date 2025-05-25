@@ -73,8 +73,8 @@ Este proyecto compara el rendimiento de un **servidor de Minecraft** implementad
 | **CPU Media**      | 2.31%             | 8.04%             |  
 | **Espacio en Disco**| 50 GB            | 1.5 GB            |  
 
-![Uso de RAM](Proyecto_TIC/tree/main/vm_vs_docker_benchmark/results/images/RAM.png)  
-![Uso de CPU](Proyecto_TIC/tree/main/vm_vs_docker_benchmark/results/images/CPU.png)  
+![Uso de RAM](Proyecto_TIC/main/vm_vs_docker_benchmark/results/images/RAM.png)  
+![Uso de CPU](Proyecto_TIC/main/vm_vs_docker_benchmark/results/images/CPU.png)  
 
 ### 2. Rendimiento de Red  
 | **Métrica**       | **VM**   | **Docker** |  
@@ -82,8 +82,8 @@ Este proyecto compara el rendimiento de un **servidor de Minecraft** implementad
 | **Latencia Media** | 0.14 ms  | 0.34 ms    |  
 | **Tráfico TX/RX**  | 0.00 KB/s| 0.00 KB/s  |  
 
-![Latencia](Proyecto_TIC/tree/main/vm_vs_docker_benchmark/results/images/Ms.png)  
-![Tráfico TX](Proyecto_TIC/tree/main/vm_vs_docker_benchmark/results/images/TX.png) ![Tráfico RX](Proyecto_TIC/tree/main/vm_vs_docker_benchmark/results/images/RX.png)  
+![Latencia](Proyecto_TIC/main/vm_vs_docker_benchmark/results/images/Ms.png)  
+![Tráfico TX](Proyecto_TIC/main/vm_vs_docker_benchmark/results/images/TX.png) ![Tráfico RX](Proyecto_TIC/main/vm_vs_docker_benchmark/results/images/RX.png)  
 
 ### 3. Tiempo de Arranque  
 - **VM**: 30 segundos (hasta servicio activo).  
