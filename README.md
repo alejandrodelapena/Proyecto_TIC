@@ -73,8 +73,8 @@ Este proyecto compara el rendimiento de un **servidor de Minecraft** implementad
 | **CPU Media**      | 2.31%             | 8.04%             |  
 | **Espacio en Disco**| 50 GB            | 1.5 GB            |  
 
-![Uso de RAM](RAM.png)  
-![Uso de CPU](CPU.png)  
+![Uso de RAM](../results/images/RAM.png)  
+![Uso de CPU](../results/images/CPU.png)  
 
 ### 2. Rendimiento de Red  
 | **Métrica**       | **VM**   | **Docker** |  
@@ -82,8 +82,8 @@ Este proyecto compara el rendimiento de un **servidor de Minecraft** implementad
 | **Latencia Media** | 0.14 ms  | 0.34 ms    |  
 | **Tráfico TX/RX**  | 0.00 KB/s| 0.00 KB/s  |  
 
-![Latencia](Ms.png)  
-![Tráfico TX](TX.png) ![Tráfico RX](RX.png)  
+![Latencia](../results/images/Ms.png)  
+![Tráfico TX](../results/images/TX.png) ![Tráfico RX](../results/images/RX.png)  
 
 ### 3. Tiempo de Arranque  
 - **VM**: 30 segundos (hasta servicio activo).  
