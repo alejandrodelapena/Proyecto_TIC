@@ -122,8 +122,32 @@ Este proyecto compara el rendimiento de un **servidor de Minecraft** implementad
 
 - **Estructura del Proyecto**:  
 
-
-
+```bash
+vm_vs_docker_benchmark/
+├── notebooks/
+│   └── vm_vs_docker_comparison.ipynb  # Análisis interactivo de métricas
+├── results/
+│   ├── docker_metrics/                # Datos de rendimiento de Docker
+│   └── vm_metrics/                    # Datos de rendimiento de la VM
+├── images/                            # Gráficos y capturas de pantalla
+│   ├── RAM.png
+│   ├── CPU.png
+│   ├── Ms.png
+│   ├── TX.png
+│   └── RX.png
+├── minecraft-server/                  # Servidor usado para la VM
+├── minecraft_data/                    # Servidor usado para Docker
+├── scripts/                           # Scripts de automatización
+│   ├── Dockerfile                     # Configuración de imagen Docker
+│   ├── docker-compose.yml             # Orquestación de contenedores
+│   ├── docker_metrics.sh              # Monitorización de Docker
+│   ├── docker_setup.sh                # Instalación de entorno Docker
+│   ├── vm_metrics.sh                  # Monitorización de VM
+│   └── vm_setup.sh                    # Configuración de VM
+├── .gitignore                         # Archivos excluidos de Git
+├── README.md                          # Este archivo
+└── install.ipynb                      # Guía de instalación interactiva
+```
 ---
 
 ## 📚 Bibliografía y Recursos  
